@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
-* main - prints Putchar
-*
-* Description: prints _putchar
-*
+* main - prints Putchar*
+* Description: prints _putchar*
 * Return: 0 (Success)
 */
 
@@ -18,7 +16,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-_putchar('\n');
+	_putchar('\n');
 
-return (0);
+	return (0);
 }
