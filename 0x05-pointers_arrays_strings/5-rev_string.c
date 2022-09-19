@@ -36,14 +36,10 @@ void rev_string(char *s)
 	j = 0;
 	while (i > j)
 	{
-		i++;
-	}
-	i--;
-	j = 0;
-	while (i > j)
-	{
-		rev(s + i, s + j)
+		rev(s + i, s + j);
 		j++;
 		i--;
 	}
+
 }
+
